@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1></h1>
+        <p id="question">What color?</p>
+        <img src="answer1.jpg" alt="" width="250px" height="250px">
+        <br>
+        <button class="button" onclick="checkAnswer('a')">A) Blue</button>
+        <button class="button" onclick="checkAnswer('b')">B) Green</button>
+        <button class="button" onclick="checkAnswer('c')">C) Red</button>
+        <button class="button" onclick="checkAnswer('d')">D) Yellow</button>
+        <p id="result"></p>
+    </div>
+    <br>
+    <div class="quiz-container">
+        <h1></h1>
+        <p id="question">What movie?</p>
+        <img src="answer2.jpg" alt="" width="250px" height="250px">
+        <br/>
+        <button class="button" onclick="checkAnswer2('a')">A) Avenger: Infinity War</button>
+        <button class="button" onclick="checkAnswer2('b')">B) Avenger: End Game</button>
+        <button class="button" onclick="checkAnswer2('c')">C) Avenger</button>
+        <button class="button" onclick="checkAnswer2('d')">D) Avenger: Age of Ultron</button>
+        <p id="results"></p>
+    </div>
+    <script src="index.js" charset="uf-8"> </script>
+</body>
+</html>
